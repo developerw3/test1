@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stories Component Should render 3 stories 1`] = `
+<ul
+  className="list-group"
+>
+  <li
+    className="list-group-item text-left mb-0"
+  >
+    <a
+      href="/story/111/comments"
+      onClick={[Function]}
+    >
+      <div>
+        Story #
+        1
+      </div>
+      <div>
+        ID: 
+        111
+      </div>
+      <div>
+        Author : 
+        Author 1
+      </div>
+      <div>
+        Title : 
+        Title 1
+      </div>
+      <div>
+        Comments : 
+        2
+      </div>
+      <div>
+        Date : 
+        Feb-9-1970
+      </div>
+    </a>
+    <div>
+      Link : 
+      <a
+        href="www.sewwewr.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        go to the link
+      </a>
+    </div>
+  </li>
+  <li
+    className="list-group-item text-left mb-0"
+  >
+    <a
+      href="/story/222/comments"
+      onClick={[Function]}
+    >
+      <div>
+        Story #
+        2
+      </div>
+      <div>
+        ID: 
+        222
+      </div>
+      <div>
+        Author : 
+        Author 2
+      </div>
+      <div>
+        Title : 
+        Title 2
+      </div>
+      <div>
+        Comments : 
+        3
+      </div>
+      <div>
+        Date : 
+        Jan-15-1970
+      </div>
+    </a>
+    <div>
+      Link : 
+      <a
+        href="www.oirererio.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        go to the link
+      </a>
+    </div>
+  </li>
+  <li
+    className="list-group-item text-left mb-0"
+  >
+    <a
+      href="/story/333/comments"
+      onClick={[Function]}
+    >
+      <div>
+        Story #
+        3
+      </div>
+      <div>
+        ID: 
+        333
+      </div>
+      <div>
+        Author : 
+        Author 3
+      </div>
+      <div>
+        Title : 
+        Title 3
+      </div>
+      <div>
+        Comments : 
+        6
+      </div>
+      <div>
+        Date : 
+        Feb-9-1970
+      </div>
+    </a>
+    <div>
+      Link : 
+      <a
+        href="www.weoiks.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        go to the link
+      </a>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Stories Component Should render a spinner 1`] = `
+<div
+  className="d-flex justify-content-center"
+>
+  <div
+    className="spinner-border"
+    role="status"
+  >
+    <span
+      className="sr-only"
+    >
+      Loading...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Stories Component Should render there is no stories available 1`] = `
+<ul
+  className="list-group"
+>
+  <li
+    className="list-group-item text-left"
+  >
+    <h3
+      className="mr-4"
+    >
+      There is no stories available
+    </h3>
+  </li>
+</ul>
+`;
